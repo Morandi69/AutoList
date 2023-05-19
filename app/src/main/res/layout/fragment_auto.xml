@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp">
+
+
+    <TextView
+        android:textColor="@color/cardview_dark_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Details"
+        android:textAlignment="center"/>
+    <Spinner
+        android:id="@+id/auto_brand"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="15dp"
+        android:hint="@string/auto_brand_hint"/>
+
+    <Spinner
+        android:id="@+id/auto_model"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="15dp"
+        android:hint="@string/auto_model_hint"
+        />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:text="Год выпуска"
+        android:textSize="10dp"
+        />
+
+    <EditText
+        android:id="@+id/auto_year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/auto_year_hint"
+        android:inputType="number" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:text="Цена"
+        android:textSize="10dp"
+        />
+    <EditText
+        android:id="@+id/auto_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/auto_price_hint"
+        android:inputType="number"
+        android:maxLength="9"/>
+
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        >
+        <Spinner
+            android:id="@+id/auto_brand"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="15dp"
+            android:hint="@string/auto_brand_hint"
+            android:layout_weight="1"/>
+
+        <Spinner
+            android:id="@+id/auto_model"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="15dp"
+            android:hint="@string/auto_model_hint"
+            android:layout_weight="1"
+            />
+        <Button
+            android:id="@+id/fButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="фильтр">
+
+        </Button>
+    </LinearLayout>
+<androidx.recyclerview.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/auto_recycler_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
+</LinearLayout>

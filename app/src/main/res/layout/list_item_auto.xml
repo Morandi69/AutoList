@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dotted_border">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_weight="2">
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/auto_brand"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Auto"
+            android:textSize="16dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/auto_year"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Year"
+            android:textSize="16dp"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/auto_price"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_weight="5"
+        android:text="18000$"
+        android:textSize="18dp"
+        android:textAlignment="center"
+        tools:ignore="TextSizeCheck,TouchTargetSizeCheck">
+
+    </TextView>>
+</LinearLayout>

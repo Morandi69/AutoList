@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Список машин</string>
+    <string name="auto_brand_hint">Марка Авто</string>
+    <string name="auto_model_hint">Модель Авто</string>
+    <string name="auto_price_hint">Цена авто</string>
+    <string name="auto_year_hint">Год выпуска</string>
+    <string name="new_auto">Добавить Авто</string>
+</resources>
